@@ -92,9 +92,9 @@ function Navbar(){
               <div className='laptopnavbarlinks'>
                 <ol className='laptopnavbarlist flex gap-7'>
                   <li className='laptopnavbaritem'><a href="#">Home</a></li>
-                  <li className='laptopnavbaritem'><a href="#about">about</a></li>
-                  <li className='laptopnavbaritem'><a href="#skills">skills</a></li>
-                  <li className='laptopnavbaritem'><a href="#project">project</a></li>
+                  <li className='laptopnavbaritem'><a href="#about">About</a></li>
+                  <li className='laptopnavbaritem'><a href="#skills">Skills</a></li>
+                  <li className='laptopnavbaritem'><a href="#project">Project</a></li>
                   <li><a href="#form">Contact</a></li>
 
                 </ol>

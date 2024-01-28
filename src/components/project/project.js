@@ -9,7 +9,7 @@ function projectcard(props){
           </div>
 
           <div className='projectlayer'>
-            <a href={props.link} target='_blank' className='text-center inline-block'>View More</a>
+            <a href={props.link} target='_blank' className='mx-5 mt-5 text-white inline-block text-4xl'>View More</a>
           </div>
         </div>
         </>

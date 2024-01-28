@@ -22,7 +22,7 @@ function App() {
       <section id="skills" className='pt-20'>
         <div className='container'>
           <div className='skillsheading'>
-              <h3 className='text-center text-3xl'>My Skills</h3>
+              <h3 className='text-center text-3xl text-white'>My Skills</h3>
               <div className='skillscontent mt-5'>
 
               <Servicebox 
@@ -66,22 +66,22 @@ list4='Gihub'
               <div className='projectcontent'>
                 <Projectcard 
                 projectimage ={project1}
-                link="https://simanta-thapa.github.io/red-cross-au/"
+                link="https://simanta-thapa.github.io/News/"
                 />
 
                 <Projectcard 
                 projectimage ={project2}
-                link=""
+                link="https://simanta-thapa.github.io/lwm/"
                 />
 
 <Projectcard 
                 projectimage ={project3}
-                link=""
+                link="https://simanta-thapa.github.io/red-cross-au/"
                 />
 
 <Projectcard 
                 projectimage ={project4}
-                link=""
+                link="https://simanta-thapa.github.io/TourandTravel/"
               
                 />
 

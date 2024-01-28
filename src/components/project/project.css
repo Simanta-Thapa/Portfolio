@@ -1,3 +1,6 @@
+
+
+
 #project{
     background-color: #353935;
 }
@@ -32,6 +35,14 @@
     color:white;
 }
 
+
+@media (max-width:600px){
+    .projectcontent{
+        display: grid;
+        grid-template-columns: auto;
+        gap:1.5rem;
+       }
+}
 
 
 
