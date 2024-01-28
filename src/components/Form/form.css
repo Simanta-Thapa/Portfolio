@@ -1,0 +1,19 @@
+#form{
+    background-color: #353935;
+}
+
+
+@media (max-width:600px){
+    .upperpartinput{
+        flex-direction: column;
+    }
+
+    /* .inputgroup{
+        width: 100%;
+    } */
+
+    form{
+        width: 100%;
+    }
+}
+

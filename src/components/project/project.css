@@ -1,0 +1,37 @@
+#project{
+    background-color: #353935;
+}
+
+
+.projectCard{
+    position: relative;
+}
+
+.projectcontent{
+ display: grid;
+ grid-template-columns: auto auto;
+ gap:1.5rem;
+}
+
+.projectheading{
+    margin-bottom: 2rem;
+}
+
+.projectcardimage, .projectcardimage img{
+    height: 100%;
+    width: 100%;
+}
+
+.projectlayer{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    color:white;
+}
+
+
+
+

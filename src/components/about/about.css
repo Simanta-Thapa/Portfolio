@@ -1,0 +1,44 @@
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+
+
+#about{
+    background-color: #353935;
+}
+
+.aboutmecontent{
+   display: flex;
+   
+}
+
+.aboutmetext{
+    width: 50%;
+}
+
+/* .aboutmetext{
+    border:1px solid red;
+}
+
+.aboutmeimage{
+    border:1px solid red;
+} */
+
+
+
+
+@media (max-width:800px){
+    #about{
+        padding-top:3rem;
+    }
+    .aboutmecontent{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .aboutmetext{
+        width: 100%;
+    }
+    
+}
